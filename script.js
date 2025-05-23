@@ -1,0 +1,3 @@
+function niga(){
+    alert("niga");
+}
