@@ -1,7 +1,58 @@
 body{
     background-color: black;
+    color: #00ff00;
 }
 
 h1{
     color: #00ff00;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #00ff00;
+    background-color: #333333;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 0 15px;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s ease;
+}
+
+nav ul li a:hover{
+    background-color: #446644;
+}
+
+p{
+    text-align: center;
+}
+
+#zp{
+    width: 40%;
+}
+
+#mk{
+    width: 40%;
+    float: right;
+}
+
+#mg{
+    height: 800px;
+    margin-left: 300px;
+}
+
+#mb{
+    height: 800px;
+    margin-right: 300px;
+    float: right;
 }
