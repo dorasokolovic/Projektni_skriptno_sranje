@@ -1,3 +1,0 @@
-function niga(){
-    alert("niga");
-}
