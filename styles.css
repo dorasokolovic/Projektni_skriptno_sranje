@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     background-color: black;
     color: #00ff00;
@@ -55,4 +59,18 @@ p{
     height: 800px;
     margin-right: 300px;
     float: right;
+}
+
+.column{
+    width: 100%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.feet{
+    text-align: center;
 }
