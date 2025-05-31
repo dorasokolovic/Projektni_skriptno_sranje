@@ -6,7 +6,6 @@
         <link rel="stylesheet" href="styles.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://startbootstrap.com/theme/creative" rel="stylesheet" ype="tex/css">
     </head>
     <body>
         <h1>Car Fan Page</h1>
@@ -18,7 +17,46 @@
             </ul>
         </nav>
         <br>
-        Ime: Natko<br>Prezime:Car<br>Godina rodenja:2007<br>relationship staus:single pringle<br>bivsi hobiji: sadasnji hobiji:<br>
+        <form>
+            <label>1. Kada je Natko krenuo u glazbenu školu?</label><br>
+            <input type="radio" name="P1" value="K1_1">U 4. osnovne<br>
+            <input type="radio" name="P1" value="T1">U 3. osnovne<br>
+            <input type="radio" name="P1" value="K1_2">Ni on se ne sjeća 🤷‍♂️<br><br>
+            <label>2. Koji je seriski broj natkovog malokalibarskog pištoljčeka? </label><br>           <!--B35038-->
+            <input type ="text" id="P2"><br><br>
+            <label>3. Što Nako najviše voli?</label><br>
+            <input type="checkbox" name="P3" id="K3_1">NiOP<br>
+            <input type="checkbox" name="P3" id="T3_1">Miris baruta<br>
+            <input type="checkbox" name="P3" id="K3_2">vjerojanosti<br>
+            <input type="checkbox" name="P3" id="T3_2">Zvuk gitare<br><br>
+            <label>4. Kojeg datuma je Natko Car roden?</label>
+            <select>
+              <option>27.4.</option>
+              <option>3.9.</option>
+              <option>4.6.</option>
+            </select><br><br>
+            <label>5. Što mislite što natko više voli, gitaru ili pišolj?</label><br>
+            <textarea placeholder="?"></textarea><br>
+            <label>6. Koji je Naku najdraži žanr muzike?</label><br>
+            <input type="radio" name="odg" value="">Pop<br>
+            <input type="radio" name="odg" value="">Techno<br>
+            <input type="radio" name="odg" value="">Metal<br><br>
+            <label>7. Napišite ime Nakovog najdražeg glazbenika? </label><br>
+            <input type ="text" ><br><br>
+            <label>8. Tko je natkova najveća podrža kad dođe do strelane?</label><br>              <!--ja naravno-->
+            <input type="checkbox" name="pm" id="">Tata<br>
+            <input type="checkbox" name="pm" id="">Dora<br>
+            <input type="checkbox" name="pm" id="">Lovro<br><br>    
+            <label>9. Koji je bio Natkov najbolji rezultat na zraku?</label>
+            <select>
+              <option>532</option>
+              <option>536</option>           <!--tocno-->
+              <option>540</option>
+            </select><br><br>
+            <label>10. Mislite li da je ovaj kviz bio gubljenje vremena?</label><br>
+            <textarea placeholder="?"></textarea><br>
+            <button onclick="provjeri()">Provjeri</button>
+          </form>
     <script src="script.js"></script>
     </body>
-</html>
+</html>                                                      <!--idem brisa pod,uzivaj-->
