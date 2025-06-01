@@ -1,10 +1,10 @@
 insex
 uređivanje teksta zadnje radi kaj ti se sprdne
-copy kurac
+copy kurac✅
 razni fent kurčevi
-slink (slika-link) npr za streljanu, muziku
+slink (slika-link) npr za streljanu, muziku✅
 #00ff00 boje
-bg pattern
+bg pattern✅
 streljastvo.xlsx > streljastvo.html
 oprasci - o meni
 pseudo

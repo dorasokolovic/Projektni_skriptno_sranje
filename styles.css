@@ -1,19 +1,56 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body{
-    background-color: black;
+    background-image: ('https://i.sstatic.net/LWVaz.jpg');
     color: #00ff00;
 }
 
-h1{
-    color: #00ff00;
+header{
+    background-image: url('https://i.pinimg.com/736x/a3/9e/c7/a39ec7f9c45b019ece70376de2a2afd8.jpg');
+    height: 100px;
+    color:black;
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+}
+.kurac{
+    background-color:rgb(107, 180, 113);
+    height: 100px;
+    color:black;
+    font-size: 20px;
+    text-align: left;
+    align-content: center;
 }
 
+.kurac h2{
+    margin: 0;
+}
+#nirv{
+    height: 70px;
+    width: 70px;
+    float: right;
+    margin:0;
+}
+#ind{
+    height:300px;
+    align-content: center;
+    background-image: url('https://i.pinimg.com/736x/a3/9e/c7/a39ec7f9c45b019ece70376de2a2afd8.jpg');
+    color: white;
+    align-content: center;
+    text-align: center;
+    
+}
 nav ul {
+    background-color:#446644;
+    color: white;
     list-style: none;
     text-align: center;
+    margin: 0;
+    height: 80px;
+    align-content: center;
 }
 
 nav ul li {
@@ -23,7 +60,7 @@ nav ul li {
 
 nav ul li a {
     color: #00ff00;
-    background-color: #333333;
+    background-color: #383030;
     text-decoration: none;
     font-size: 1.2em;
     margin: 0 15px;
@@ -36,6 +73,19 @@ nav ul li a {
 nav ul li a:hover{
     background-color: #446644;
 }
+
+.drek {
+    text-align: center;
+}
+
+.drek img {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    padding: 50px;
+}
+
 
 p{
     text-align: center;
@@ -70,9 +120,28 @@ p{
     display: table;
     clear: both;
 }
+.zlajo{
+    align-content: center;
+    text-align: center;
+}
 
+#imgs{
+    height: 50px;
+    width: 50px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+#imgs:hover{
+    opacity: 0.3;
+}
 .feet{
     text-align: center;
+    align-content: center;
+    background-color:#0b4505;
+    color: white;
+    margin: 0;
+    height: 50px;
+
 }
 
 table{
@@ -93,20 +162,20 @@ caption{
 
 .ty{
     background-color: #bbbb00;
-    color: #000000;
+    color: BLACK;
 }
 
 .tg{
     background-color: #00aa00;
-    color: #000000;
+    color: BLACK;
 }
 
 .tr{
     background-color: #cc0000;
-    color: #000000;
+    color: BLACK;
 }
 
 .tgr{
     background-color: #aaaaaa;
-    color: #000000;
+    color: BLACK;
 }
