@@ -10,7 +10,7 @@ function provjeri(event) {
 
     let sbb = document.getElementById("P2").value;
     let sb = document.getElementById("P2");
-    if (sbb == "B35038")
+    if (sbb.toLowerCase() == "b35038")
         sb.style.backgroundColor = "#00aa00";
     else
         sb.style.backgroundColor = "#cc0000";
@@ -41,7 +41,7 @@ function provjeri(event) {
 
     let pg = document.getElementById("P5").value;
     let pgg = document.getElementById("P5");
-    if (pg == "Bass") {
+    if (pg.toLowerCase() == "bass") {
         pgg.style.background = "#00aa00";
     }
     else {
@@ -59,7 +59,7 @@ function provjeri(event) {
 
     let gbb = document.getElementById("P7").value;
     let gb = document.getElementById("P7");
-    if (gbb == "Cliff Burton")
+    if (gbb.toLowerCase() == "cliff burton")
         gb.style.backgroundColor = "#00aa00";
     else
         gb.style.backgroundColor = "#cc0000";
@@ -88,7 +88,7 @@ function provjeri(event) {
 
     let gv = document.getElementById("P10").value;
     let gvv = document.getElementById("P10");
-    if (gv == "Da") {
+    if (gv.toLowerCase() == "da") {
         gvv.style.background = "#00aa00";
     }
     else {
