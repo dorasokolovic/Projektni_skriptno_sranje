@@ -109,7 +109,18 @@ nav ul li a:hover{
     padding: 50px;
     border: 2px solid #00ac00;
 }
-
+.photo img{
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    padding: 50px;
+}
+.photo2 img{
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    padding: 50px; 
+}
 
 p{
     text-align: center;
