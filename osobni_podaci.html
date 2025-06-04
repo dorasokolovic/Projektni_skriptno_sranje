@@ -19,7 +19,6 @@
               <li><a href="photowall.html">PHOTOWALL</a></li>
           </ul>
       </nav>
-<<<<<<< Updated upstream
       <br>
       <form>
         <label>1. Kada je Natko krenuo u glazbenu školu?</label><br>
@@ -70,14 +69,14 @@
         <textarea placeholder="?" id="P10"></textarea><br><br>
 
         <label>11. Za koju pjesmu Natko misli da je potcjenjena?</label><br>
-        <input type="radio" name="P11" id="K11_1">Damage Inc. - Metallica<br>
-        <input type="radio" name="P11" id="T11">One World - Dire Straits<br>
-        <input type="radio" name="P11" id="K11_2">Cracker Island - Gorillaz<br><br>
+        <input type="radio" name="P11" value="K11_1">Damage Inc. - Metallica<br>
+        <input type="radio" name="P11" value="T11">One World - Dire Straits<br>
+        <input type="radio" name="P11" value="K11_2">Cracker Island - Gorillaz<br><br>
 
         <label>12. Koja je natkova najdraža pjesma od Cliff Burtona?</label><br>
-        <input type="checkbox" name="P12" value="T12_1">Anesthesia (Pulling Teeth)<br>
-        <input type="checkbox" name="P12" value="T12_2">The Call Of Ktulu<br>
-        <input type="checkbox" name="P12" value="K12">Orion<br><br>
+        <input type="checkbox" name="P12" id="T12_1">Anesthesia (Pulling Teeth)<br>
+        <input type="checkbox" name="P12" id="T12_2">The Call Of Ktulu<br>
+        <input type="checkbox" name="P12" id="K12">Orion<br><br>
 
         <label>13. Kada je Natko krenuo na streljaštvo? (točan datum, dd.mm.yyyy.)</label><br>
         <input type ="text" id="P13"><br><br>
@@ -103,74 +102,5 @@
       </div><br>
       <footer class="feet">&copy;Dora Sokolović i Natko Car</footer>
       <script src="script.js"></script>
-=======
-        <br>
-        <form>
-            <label>1. Kada je Natko krenuo u glazbenu školu?</label><br>
-            <input type="radio" name="P1" value="K1_1">U 4. osnovne<br>
-            <input type="radio" name="P1" value="T1">U 3. osnovne<br>
-            <input type="radio" name="P1" value="K1_2">Ni on se ne sjeća 🤷‍♂️<br><br>
-            <label>2. Koji je seriski broj natkovog malokalibarskog pištoljčeka? </label><br>  <!--B35038-->
-            <input type ="text" id="P2"><br><br>
-            <label>3. Što Natko najviše voli?</label><br>
-            <input type="checkbox" name="P3" id="K3_1">NiOP<br>
-            <input type="checkbox" name="P3" id="T3_1">Miris baruta<br>
-            <input type="checkbox" name="P3" id="K3_2">Vjerojanosti<br>
-            <input type="checkbox" name="P3" id="T3_2">Zvuk gitare<br><br>
-            <label>4. Kojeg datuma je Natko Car roden?</label>
-            <select id="P4">
-              <option>3.9.</option>
-              <option>4.6.</option>
-              <option>27.4.</option>
-            </select><br><br>
-            <label>5. Što mislite što Natko više voli, gitaru ili pišolj?</label><br>
-            <textarea placeholder="?" id="P5"></textarea><br>
-            <label>6. Koji je Natku najdraži žanr muzike?</label><br>
-            <input type="radio" name="P6" value="K6_1">Pop<br>
-            <input type="radio" name="P6" value="K6_2">Techno<br>
-            <input type="radio" name="P6" value="T6">Metal<br><br>
-            <label>7. Napišite ime Natkovog najdražeg glazbenika? </label><br>
-            <input type ="text" id="P7"><br><br>
-            <label>8. Tko je Natkova najveća podrška kad dođe do streljane?</label><br>
-            <input type="checkbox" name="P8" id="T8_1">Tata<br>
-            <input type="checkbox" name="P8" id="T8_2">Dora<br>
-            <input type="checkbox" name="P8" id="K8">Lovro<br><br>    
-            <label>9. Koji je bio Natkov najbolji rezultat na zraku?</label>
-            <select id="P9">
-              <option>532</option>
-              <option>536</option>
-              <option>540</option>
-            </select><br><br>
-            <label>10.</label>
-            <textarea placeholder="?" id="P10"></textarea><br>
-            <label>11. ?</label><br>
-            <input type="checkbox" name="P11" id="T11_1">Tata<br>
-            <input type="checkbox" name="P11" id="T11_2">Dora<br>
-            <input type="checkbox" name="P11" id="K11">Lovro<br><br>    
-            <label>12. Koja je natkova najdraža pjesma od Cliff Burtona?</label><br>
-            <input type="radio" name="P12" value="T12">Anesthesia (Pulling Teeth)<br>
-            <input type="radio" name="P12" value="K12_1">Nothing else matters<br>
-            <input type="radio" name="P12" value="K12_2">Master of puppets<br><br>
-            <label>13. Kada je krenuo na streljaštvo? </label><br>
-            <input type ="text" id="P13"><br><br>
-            <label>14. U kojem mjesecu je Natko po prvi put puknuo 0?</label>
-            <select id="P14">
-              <option>u veljača</option>
-              <option>u lipnju</option>
-              <option>u svibanju</option>
-            </select><br><br>
-            <label>15. Je li streljaštvo Natku najdraži sport koji je trenirao?</label><br>
-            <textarea placeholder="?" id="P15"></textarea><br><br>
-            A sada jedno ekstra pitanje na koje nije obavezno odgovoriti<br>
-            Što biste htjeli poručiti Natku?<br>
-            <textarea placeholder="?" id="P15" rows="5" cols="40"></textarea><br>
-            <button type="button" onclick="provjeri(event)">Provjeri</button>
-          </form><br>
-          <div class="zlajo">
-            sponsored by: <a href="zlajo.html"><img src="slike/zlajo.jpg" id="imgs"></a>
-        </div><br>
-          <footer class="feet">&copy;Dora Sokolović i Natko Car</footer>
-    <script src="script.js"></script>
->>>>>>> Stashed changes
     </body>
 </html>

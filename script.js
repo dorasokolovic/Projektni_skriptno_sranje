@@ -108,7 +108,7 @@ function provjeri(event) {
 
     //P11
     const R11 = document.getElementsByName("P11");
-    R6.forEach((radio) => {
+    R11.forEach((radio) => {
         if (radio.value === "T11" && radio.checked) {
             radio.style.accentColor = "#00aa00";
         } else if (radio.checked) {
@@ -134,18 +134,18 @@ function provjeri(event) {
     let p13 = document.getElementById("P13").value;
     let pp13 = document.getElementById("P13");
     if (p13.toLowerCase() == "18.09.2024.")
-        sb.style.backgroundColor = "#00aa00";
+        pp13.style.backgroundColor = "#00aa00";
     else
-        sb.style.backgroundColor = "#cc0000";
+        pp13.style.backgroundColor = "#cc0000";
 
     //P14
     let p14 = document.getElementById("P14").value;
     let pp14 = document.getElementById("P14");
-    if (nr == "U svibnju") {
-        nrr.style.background = "#00aa00";
+    if (p14 == "U svibnju") {
+        pp14.style.background = "#00aa00";
     }
     else {
-        nrr.style.background = "#cc0000";
+        pp14.style.background = "#cc0000";
     }
 
     //P15
