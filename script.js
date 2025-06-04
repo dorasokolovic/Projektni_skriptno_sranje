@@ -88,7 +88,7 @@ function provjeri(event) {
 
     let gv = document.getElementById("P10").value;
     let gvv = document.getElementById("P10");
-    if (gv.toLowerCase() == "da") {
+    if (gv.toLowerCase() == "da" || gv.toLowerCase() == "ne") {
         gvv.style.background = "#00aa00";
     }
     else {
