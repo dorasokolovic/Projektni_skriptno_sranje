@@ -8,3 +8,5 @@ bg pattern✅
 streljastvo.xlsx > streljastvo.html
 oprasci - o meni
 pseudo
+vic
+savit slike na koje kad se kliknu one se maknu i pokaze se quote
