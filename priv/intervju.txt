@@ -5,7 +5,7 @@ A: Općenito sam prvi put kad sam bio mali kod djede uzimao akustičnu gitaru i 
 
 M2.
 Q: Koji ti je najdraži instrument?
-A: Električna gitara.
+A: Bass.
 
 M3.
 Q: Koji ti je najdraži žanr muzike?
@@ -22,6 +22,10 @@ A: Anesthesia (Pulling Teeth). Znam svirati prvu polovicu, druga je već malo te
 M6.
 Q: Koja je najteža pjesma koju si uspio odsvirati?
 A: Vjerojatno Mechanix od Megadetha. Jako brzi tempo i puno različitih nota i tehnika.
+
+Bonus.
+Q: Možeš li nam to odsvirati?
+A: Naravno da mogu. [gitara]
 
 M7.
 Q: Za koju pjesmu misliš da je jako podcjenjena?
@@ -67,54 +71,57 @@ O3.
 Q: Žališ li što si upisao ovu školu?
 A: Zbog nekih predmeta da, ali zbog društva ne.
 
-18.
-Q: 
-A: 
+O4.
+Q: Znas li abecedu?
+A: Kaj?
 
-19.
-Q: 
-A: 
+M8.
+Q: Postoji li neki instrument koji mrziš bez razloga?
+A: Sve kaj mrzim je 100% opravdano, a kod instrumenata su to puhači instrumenti.
 
-20.
-Q: 
-A: 
+M9.
+Q: Zašto mrziš puhače instrumene, je li to do svirača ili baš instrumenata?
+A: Svirači su užas. Instrumenti su naporni. Ne znam kaj da više kažem.
 
 21.
-Q: 
-A: 
+Q: Kao programer, koji programski jezik najviše mrziš, a koji najvise voliš?
+A: Najviše mrzim css i js, a najviše volim... [pauk prođe po zidu] UU VIDI TARANTULAAA!
 
 22.
-Q: 
-A: 
+Q: Što bi rekao, znaš li više programskih jezika, insrumenata(koje znas svirati) ili vrsta pistolja
+A: Jebote kakvo pitanje. Vjerojatno programske jezike.
 
 23.
-Q: 
-A: 
+Q: Što kažeš na činjenicu da se kozmetičarke sljedeće godine spajaju sa programerima?
+A: Apsolutno kino.
 
 24.
-Q: 
-A: 
+Q: Znaš li svirati Seek & Destory?
+A: Ma kako ne bih znao. [gitara]
 
 25.
-Q: 
-A: 
+Q: Koji ti je najveći strah i zašto?
+A: Ja nemam strahova 💪💪💪
 
 26.
-Q: 
-A: 
+Q: Zašto gladiš taranule?
+A: Zato jer su baš cute 🥰
 
 27.
-Q: 
-A: 
+Q: Preferiraš li jutro ili noć?
+A: Sredinu dana.
 
 28.
-Q: 
-A: 
+Q: Imaju li neke fraze koje si pokupio od frendova i korisiš u svakodnevnom životu?
+A: "Ermmm, jesi li ti petardisovan?" by Lovro Marović
+   "Don't bite the hand that fingers" by Luka Salaj
+   "Miša mu tustog" by Andrija Dean
 
 29.
-Q: 
-A: 
+Q: Imaju li neke fraze što su tvoji prijatelji od tebe pokupili?
+A: "Da se pomnožiš sam sa sobom, dobio bi -1. Jesi li ti jebeno realan?"
+   "Pot of goon"
 
 30.
-Q: 
-A: 
+Q: Imas li neso za poručiti dečurliji koja te gleda?
+A: Djeco, sretno na maturi
