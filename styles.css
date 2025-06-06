@@ -15,7 +15,7 @@ html, body{
 }
 
 body{
-    background-image: url('https://i.sstatic.net/LWVaz.jpg');
+    background-image: url('pozadine/poz_zeleno.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -25,15 +25,16 @@ body{
 }
 
 header h1{
-    background-image: url('https://i.pinimg.com/736x/a3/9e/c7/a39ec7f9c45b019ece70376de2a2afd8.jpg');
+    background-image: url('pozadine/poz_mete.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 33%;
     height: 250px;
-    color:rgb(255, 255, 255);
     font-size: 70px;
     text-align: center;
     align-content: center;
+    margin: 0;
+    color: rgb(241, 12, 12);
 }
 .kurac{
     background-color:rgb(107, 180, 113);
@@ -57,7 +58,7 @@ header h1{
 #ind{
     height:300px;
     align-content: center;
-    background-image: url('https://i.pinimg.com/736x/a3/9e/c7/a39ec7f9c45b019ece70376de2a2afd8.jpg');
+    background-image: url('pozadine/poz_mete.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 33%;
@@ -150,19 +151,24 @@ p{
     float: right;
 }
 
-#mg{
-    height: 800px;
-    margin-left: 300px;
-}
-
-#mb{
-    height: 800px;
-    margin-right: 300px;
-    float: right;
-}
-
-.column{
+.row{
     width: 100%;
+}
+
+.row .column{
+    width: 33.33%;
+}
+
+.row .column #mg{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.row .column #mb{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .row:after {
@@ -287,4 +293,12 @@ form{
 form label{
     font-weight: bold;
     font-size: 30px;
+}
+
+.left, .right{
+    width: 25%;
+}
+
+.mid{
+    width: 50%;
 }
