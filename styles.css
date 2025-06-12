@@ -370,3 +370,9 @@ pre{
     text-align: center;
 
 }
+.smjesno img {
+    margin: 20px;
+    width: 205px;
+    margin-left: auto;
+    margin-right: auto;
+}
