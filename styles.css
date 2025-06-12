@@ -310,7 +310,7 @@ form label{
 
 .image-container {
     position: relative;
-    width: 300px; /* Adjust as needed */
+    width: 300px;
     height: 300px;
     margin: 20px auto;
     overflow: hidden;
@@ -376,3 +376,115 @@ pre{
     margin-left: auto;
     margin-right: auto;
 }
+
+@media (max-width: 768px) {
+
+    header h1 {
+      font-size: 40px;
+      height: 150px;
+      padding: 10px;
+    }
+
+    .drek img{
+        height: 150px;
+    }
+  
+    .kurac {
+      flex-direction: column;
+      height: auto;
+      text-align: center;
+      padding: 10px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    nav ul li a {
+      display: block;
+      margin: 5px auto;
+      font-size: 1em;
+      padding: 8px;
+    }
+  
+    .photo img,
+    .photo2 img {
+      height: auto;
+      width: 90%;
+      padding: 10px;
+    }
+  
+    .row .column {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .row .column #mg, 
+    .row .column #mb,
+    .row .column #zp, 
+    .row .column #mk {
+      width: 80%;
+      margin: 0 auto;
+    }
+  
+    figure img {
+      width: 90%;
+    }
+  
+    .image-container {
+      width: 90%;
+      height: auto;
+    }
+  
+    .hover-image {
+        position: static;
+      width: 100%;
+      height: auto;
+    }
+  
+    .backround-text {
+      font-size: 16px;
+      padding: 5px;
+    }
+  
+    .feet {
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+    }
+  
+    table {
+      width: 95%;
+      font-size: 14px;
+    }
+  
+    th {
+      font-size: 16px;
+    }
+  
+    caption {
+      font-size: 20px;
+    }
+  
+    form {
+      font-size: 18px;
+    }
+  
+    form label {
+      font-size: 22px;
+    }
+  
+    .left, .right, .mid {
+      width: 100%;
+    }
+  
+    .smjesno img {
+      width: 90%;
+    }
+  }
